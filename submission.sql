@@ -1,0 +1,29 @@
+--psql -f mainframe_override
+--\d
+--\l
+--\c mainframe_override
+--\d
+--\d forum_posts
+--select * from forum_posts where date between '2048-04-01' and '2048-04-30';
+--\d forum_accounts
+-- select * from forum_accounts where username = 'smart-money-44';
+--select * from forum_accounts where last_name = 'Steele';
+--\d emptystack_accounts
+--select * from emptystack_accounts where last_name = 'Steele';
+-- 'Note' Andrew is on both Lists
+-- triple-cart-38 | password456 | Andrew     | Steele;
+--\q
+--\node mainframe
+-- Enter "triple-cart-38 | password456"
+-- psql -f emptystack.sql
+-- psql
+-- \c mainframe_override;
+-- \d emptystack_messages;
+-- select * from emptystack_messages;
+-- Find "taxi"
+-- clear terminal and get back
+-- Find "taxi"
+-- Note user "your-boss-99"
+-- \d emptystack_accoutns;
+-- select * from emptystack_accounts where username = 'your-boss-99';
+-- " your-boss-99 | notagaincarter | Skylar     | Singer"
